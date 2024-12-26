@@ -41,7 +41,7 @@ int main() {
     }
 
     for (int i = 0; i < 3; i++) {
-        delete animals[i];
+        delete animals[i];  //  메모리 누수 방지?
     }
 
     return 0;
